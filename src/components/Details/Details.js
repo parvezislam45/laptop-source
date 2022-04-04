@@ -5,10 +5,10 @@ const Details = (props) => {
     const { name, comment, ratings} = props.review;
     return (
         <div>
-                <div className='details'>
-                    <h3>Name : {name}</h3>
+                <div className='details shadow-lg p-3 mb-5 bg-body rounded'>
+                    <h5>Name : {name}</h5>
                     <p>Comments:{comment}</p>
-                    <h4>Ratings :{ratings}</h4>
+                    <h5>Ratings :{ratings}</h5>
                 </div>
         </div>
     );

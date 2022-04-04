@@ -8,16 +8,16 @@ const Review = () => {
 
     return (
         <div>
-            <h1>Riview Page</h1>
-            <div className="container">
-            <Row xs={1} md={3} className="g-4">
-            {
-                reviews.map(review => <Details
-                    key={review.id}
-                    review={review}
-                ></Details>)
-            }
-            </Row>
+            <h1>Review Page</h1>
+            <div className="container ">
+                    <Row xs={1} md={3} className="g-4">
+                        {
+                            reviews.map(review => <Details
+                                key={review.id}
+                                review={review}
+                            ></Details>)
+                        }
+                    </Row>
             </div>
         </div>
     );
