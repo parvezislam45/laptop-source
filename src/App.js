@@ -4,15 +4,18 @@ import { Route, Routes } from 'react-router-dom';
 import Review from './components/Review/Review';
 import Home from './components/Home/Home';
 import DeshBoard from './components/DeshBoard/DeshBoard';
+import Error from './components/Error/Error';
 
 function App() {
   return (
     <div className="App">
       <Header></Header>
       <Routes>
+      <Route path='/' element= {<Home></Home>}></Route>
       <Route path='/home' element= {<Home></Home>}></Route>
       <Route path='/review' element ={<Review></Review>}></Route>
       <Route path='/deshboard' element ={<DeshBoard></DeshBoard>}></Route>
+      <Route path ='*' element = {<Error></Error>}></Route>
       </Routes>
     </div>
   );

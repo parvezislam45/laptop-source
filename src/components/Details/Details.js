@@ -2,7 +2,7 @@ import React from 'react';
 import './Details.css';
 
 const Details = (props) => {
-    const { name, comment, ratings, img } = props.review;
+    const { name, comment, ratings} = props.review;
     return (
         <div>
                 <div className='details'>
