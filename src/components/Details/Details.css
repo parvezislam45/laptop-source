@@ -1,0 +1,15 @@
+.pic{
+    width: 150px;
+    height: 100px;
+    object-fit: contain;
+    display: flex;
+    align-items: center;
+}
+.details p{
+    font-size: 15px;
+    text-align: left;
+    text-align-last: center;
+}
+.details {
+    font-size: 10px;
+}
