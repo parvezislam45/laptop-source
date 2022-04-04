@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Row } from 'react-bootstrap';
+import { Button,Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Home.css'
 import useReviews from '../../Hook/reViews';
@@ -12,8 +12,8 @@ const Home = () => {
         <div>
             <div className="container d-flex justify-content-end">
                 <div className="text">
-                    <h1>Holy-Al-Quran</h1><br></br>
-                    <h4>Great Surprise on World</h4><br></br>
+                    <h1 className='text-success'>Holy-Al-Quran</h1><br></br>
+                    <h4 className='text-info'>Great Surprise on World</h4><br></br>
                     <p>To the Muslims. the Quran is the Word of God and contains <br></br>complete guidance for mankind.The Holy Quran is divided into <br></br>114 Surahs or Chapters and each Chapter consists of individual Ayaat or verses There are in total 6,666 verses in the Holy Quran.The Surahs are of varying lengths<br></br> But it also contains directives for its followers, <br></br>historical accounts of certain prophets and peoples</p>
                 </div>
                 <div className="image shadow-lg p-3 mb-5 bg-body rounded">
@@ -23,14 +23,14 @@ const Home = () => {
             <div className="container">
                 <h1>Customer Review</h1>
                 <div className="container">
-                <Row xs={1} md={3} className="g-4">
-                    {
-                        reviews.slice(0,3).map(review => <Details
-                        key ={review.key}
-                        review ={review}
-                        data 
-                        ></Details>)
-                    }
+                    <Row xs={1} md={3} className="g-4">
+                        {
+                            reviews.slice(0, 3).map(review => <Details
+                                key={review.key}
+                                review={review}
+                                data
+                            ></Details>)
+                        }
                     </Row>
                 </div>
                 <Button variant="dark"><Link to="/review"><spn className="text-white">More Review</spn></Link></Button>
