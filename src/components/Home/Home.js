@@ -12,12 +12,12 @@ const Home = () => {
         <div>
             <div className="container d-flex justify-content-end">
                 <div className="text">
-                    <h1 className='text-success'>Holy-Al-Quran</h1><br></br>
-                    <h4 className='text-info'>Great Surprise on World</h4><br></br>
-                    <p>To the Muslims. the Quran is the Word of God and contains <br></br>complete guidance for mankind.The Holy Quran is divided into <br></br>114 Surahs or Chapters and each Chapter consists of individual Ayaat or verses There are in total 6,666 verses in the Holy Quran.The Surahs are of varying lengths<br></br> But it also contains directives for its followers, <br></br>historical accounts of certain prophets and peoples</p>
+                    <h1 className='text-success'>Laptop Mania</h1><br></br>
+                    <h4 className='text-info'>Laptop Your Daily Programming Partner</h4><br></br>
+                    <p>Laptops combine all the input/output components and capabilities of a desktop computer<br></br> including the display screen, small speakers, a keyboard data storage device, sometimes<br></br> an optical disc drive, pointing devices (such as a touch pad or pointing stick), with an operating system, a processor and memory into a single unit. <br></br>Most modern laptops feature integrated webcams and built-in microphones</p>
                 </div>
                 <div className="image shadow-lg p-3 mb-5 bg-body rounded">
-                    <img className="" src="https://images.unsplash.com/photo-1580220810949-e7ddee6a4954?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60" alt="" />
+                    <img className="" src="https://images.unsplash.com/photo-1530893609608-32a9af3aa95c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGxhcHRvcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60" alt="" />
                 </div>
             </div>
             <div className="container">
@@ -37,7 +37,7 @@ const Home = () => {
 
             </div>
             <footer>
-                <p>Designed by Aurthohin Parvez <br></br>Learner Programming Hero Batch-5</p>
+                <p>Designed by ABu Bokkor <br></br>Learner Programming Hero Batch-5</p>
             </footer>
         </div>
     );
